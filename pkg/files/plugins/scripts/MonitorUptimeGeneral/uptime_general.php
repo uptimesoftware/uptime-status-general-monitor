@@ -16,6 +16,9 @@ if ( isset($_SERVER['UPTIME_JETTY_PORT']) ) {
 }
 $url      = "http://{$hostname}:{$port}/status/general";
 
+//set the socket timeout to 10mins instead of the default 1min
+//should help with situations where the status/general page is slow to load on larger deployments.
+ini_set('default_socket_timeout', 600);
 $output = file_get_contents( trim($url) );
 
 // if we got something from the call then we need to clean it up for up.time
