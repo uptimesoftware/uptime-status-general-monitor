@@ -11,7 +11,7 @@ plugin
 
 ### Version Compatibility
 
-
+* up.time Status General Monitor 2.31 - 7.3,7.4,7.5,7.6
   
 * up.time Status General Monitor 2.2 - 7.2, 7.1, 7.0, 6.0, 5.5, 5.4, 5.3, 5.2
   
@@ -23,7 +23,7 @@ Monitor internal queues in the up.time Monitoring Station core.
 
 ### Supported Monitoring Stations
 
-7.2, 7.1, 7.0, 6.0, 5.5, 5.4, 5.3, 5.2
+7.3,7.4,7.5,7.6,7.2, 7.1, 7.0, 6.0, 5.5, 5.4, 5.3, 5.2
 
 ### Supported Agents
 None; no agent required
